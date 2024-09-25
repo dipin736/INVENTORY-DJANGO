@@ -1,0 +1,48 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+db.sqlite3
+*.pkl
+
+# Django migrations
+*/migrations/*
+
+# If you're using Django extensions
+*.sass-cache/
+*.project
+*.tmproj
+
+# Testing output
+coverage_html_report/
+htmlcov/
+
+# .gitignore
+env/
+
+# Ignore the .env file
+.env
+
+# Ignore any generated or local settings files
+*.pyc
+*.pyo
+__pycache__/
+local_settings.py
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
